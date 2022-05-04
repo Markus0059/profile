@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Special+Elite&display=swap');
+
+
+.image-circle {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-family: 'Audiowide', cursive;
+  background-image: url("https://cdn.pixabay.com/photo/2020/02/15/15/05/binary-4851165__340.jpg");
+  background-size: cover;
+  padding: 32px;
+  border-radius: 10px;
+  border: 2px;
+  box-shadow: 8px 8px 8px whitesmoke;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/03/06/58/abstract-3581182__340.jpg");
+  background-size: cover;
+  letter-spacing: 4px;
+}
+
+h1 {
+  color: aliceblue;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.bouton {
+  font-size: 30px;
+  color: blue;
+  padding: 8px;
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/17/18/26/matrix-4280571__340.jpg");
+  background-size: cover;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.bouton:hover {
+  color: aliceblue;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding: 20;
+  background-color: black;
+  font-family: "Imperial Script", cursive;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 00px;
+}
+
+ul li a:hover {
+  color: aliceblue;
+}
+
+ul li a {
+  color: blue;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 32px;
+  margin-top: 48px;
+  color: aliceblue;
+}
+
+h2 {
+  color: rgb(0, 170, 255);
+  font-family: 'Audiowide', cursive;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
